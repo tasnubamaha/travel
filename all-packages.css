@@ -1,0 +1,68 @@
+/* Styles for all packages page */
+.all-packages-container {
+    display: grid; /* Use CSS Grid for layout */
+    gap: 20px; /* Space between grid items */
+    padding: 20px;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); /* Responsive grid */
+}
+
+/* Basic card styles */
+.card {
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+/* Card image styles */
+.card-image img {
+    width: 100%;
+    height: auto;
+}
+
+/* Card content styles */
+.card-content {
+    padding: 16px;
+}
+
+/* Card title styles */
+.card-content h2 {
+    font-size: 1.5em;
+    margin: 0.5em 0;
+}
+
+/* Card price styles */
+.card-content p {
+    font-size: 1.2em;
+    color: #FF5400;
+    margin: 0.5em 0;
+}
+
+/* Button styles */
+.card-content .btn {
+    background-color: #FF5400;
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+
+/* Back Arrow Styles */
+.back-arrow {
+    display: inline-block;
+    margin: 20px 0;
+    padding: 10px 20px;
+    background-color: #FF5400;
+    color: white;
+    text-decoration: none;
+    font-size: 1em;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+.back-arrow:hover {
+    background-color: #e44d00;
+}
